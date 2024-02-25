@@ -1,0 +1,54 @@
+body {
+    background-color: #68BC04;
+}
+
+.splash {
+    overflow: visible;
+    z-index: 1;
+    width: 550px;
+    height: 500px;
+    position: fixed;
+    top: 0px;
+    right: 7vw;
+    aspect-ratio: 1 / 1;
+}
+
+.text {
+    z-index: 5;
+    overflow: visible;
+    width: 50%;
+    padding-top: 7%;
+}
+
+.woman {
+    overflow: visible;
+    z-index: 1;
+    width: 350px;
+    height: 300px;
+    position: fixed;
+    top: 80px;
+    right: 18vw;
+    aspect-ratio: 1 / 1;
+}
+
+
+@media screen and (max-width: 770px) {
+    .woman {
+      display: none;
+      width: 0% !important;
+    }
+
+    .text {
+        width: 100%;
+        margin-top: 10%;
+    }    
+  }
+
+  @media screen and (max-width: 500px) {
+    .splash {
+        width: 80vw;
+        height: 80vw;
+        top: 5%;
+        right: 10%;
+    }
+  }
