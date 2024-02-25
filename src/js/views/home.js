@@ -17,5 +17,6 @@ export const Home = () => (
 		</div>
 		<img className="img-fluid splash" src={splash} />
 		<img className="img-fluid woman" src={woman} />
+		<div></div>
 	</div>
 );

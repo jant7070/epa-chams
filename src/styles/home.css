@@ -10,7 +10,6 @@ body {
     position: fixed;
     top: 0px;
     right: 7vw;
-    aspect-ratio: 1 / 1;
 }
 
 .text {
@@ -48,7 +47,10 @@ body {
     .splash {
         width: 80vw;
         height: 80vw;
-        top: 5%;
+        top: 25%;
         right: 10%;
+    }
+    .text {
+        margin-top: 30%;
     }
   }
