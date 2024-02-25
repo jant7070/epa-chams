@@ -15,7 +15,9 @@ export const Navbar = () => {
 				<button className="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 					<FontAwesomeIcon icon={faBars} size="lg" style={{ color: "#ffffff", }} />
 				</button>
-				<img className="navbar-brand" src={logo} />
+				<Link to="/">
+					<img className="navbar-brand" src={logo} />
+				</Link>
 				<div className="collapse navbar-collapse" id="navbarTogglerDemo01">
 					<ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 						<li className="nav-item">

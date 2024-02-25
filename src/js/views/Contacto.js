@@ -4,7 +4,7 @@ import "../../styles/index.css"
 export const Contacto = () => {
     return (
         <div className="d-flex justify-content-center align-items-center flex-column">
-            <h1 className="contacto">Contactanos!!!</h1>
+            <h1 className="contacto mt-3">Contactanos!!!</h1>
             <div className="col-lg-7 m-4">
                 <form>
                     <div className="row">
